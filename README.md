@@ -8,7 +8,7 @@ The platform is also used to read WriteHub books.
 - spring-backend.
 </br>  A Spring Boot Web Java Backend application that exposes a REST API for creating books.
 spring-backend stores its data in an H2 database.
-spring-backend has the following endpoints
+spring-backend has the following endpoints.
 
 - react-frontend.
  </br> A ReactJS front-end application in which users read books as well as contribute to the creation of the books by sharing a proposal for a chapter as well as tagging proposals for the uploaded chapters, in order to access the application the user must log in using his username and password. All requests coming from react-frontend to secure endpoints at spring-backend
